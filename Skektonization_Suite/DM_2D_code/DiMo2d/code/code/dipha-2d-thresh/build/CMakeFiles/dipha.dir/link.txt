@@ -1,0 +1,1 @@
+/usr/bin/c++   -pthread -O3 -DNDEBUG   -Wl,-rpath,/home/pratik/miniconda3/envs/dm++/lib -pthread -rdynamic CMakeFiles/dipha.dir/src/dipha.cpp.o  -o dipha -Wl,-rpath,/home/pratik/miniconda3/envs/dm++/lib /home/pratik/miniconda3/envs/dm++/lib/libmpi_cxx.so /home/pratik/miniconda3/envs/dm++/lib/libmpi.so 
