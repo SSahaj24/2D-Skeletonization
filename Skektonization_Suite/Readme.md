@@ -1,4 +1,4 @@
-### The 2D Skeletonisation Algorithm
+# The 2D Skeletonisation Algorithm
 
 ## Setting up the pipeline:
 
@@ -117,7 +117,7 @@
   *(python plot.json {input likelihood TIF image path} {outputted geojson from rumdm2d.py} {output skelton overlaid image path} {output skeletal image path})*
 
   
-  # Assumptions
+  #### Assumptions
 
   - If you do not have a Kakadu License, USe openCV in the code as required.
   - The code assumes the WSI image has Signal in the First Channel.
