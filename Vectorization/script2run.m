@@ -1,3 +1,8 @@
+%% Samik Banerjee June 23, 2025
+% Input: The path of the skeleton output by the Skeletonisation Algorithm (path)
+% Output1: An output path which gives the connected components of each section of the skeletal masks (outCC)
+% Output2: The optimised output geoJSONs that can be used on the web or sent to Summarisation (outJSON)
+
 path = '/nfs/data/main/M32/Process_Detection/Skeleton/PMD1211/corrected_masks5/';
 direc = dir(fullfile(path, "*.jp2"));
 outCC = '/nfs/data/main/M32/Process_Detection/Skeleton/PMD1211/CC1/';
