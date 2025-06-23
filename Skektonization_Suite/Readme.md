@@ -106,7 +106,7 @@
 
     This is used to output the likelihood image only
 
-- **For standalone images from likelihood to skeletons**:
+- **For standalone images/Tiles from likelihood to skeletons**:
 
   `# python rundm2d.py lkl/PMD1211_58_5001_12501.tif`
 
@@ -121,4 +121,5 @@
 
   - If you do not have a Kakadu License, USe openCV in the code as required.
   - The code assumes the WSI image has Signal in the First Channel.
+  - An example of each image is given in the [Skeletonization resources page](https://data.brainarchitectureproject.org/pages/skeletonization).
 
