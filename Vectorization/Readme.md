@@ -8,8 +8,8 @@
 
 - **Run Script** `script2rum.m`:
 
-    `path := The path of the skelton outputed by the Skeletonisation Algorithm`
+    `path := The path of the skeleton output by the Skeletonisation Algorithm`
 
     `outCC := An output path which gives the connected components of each section of the skeletal masks`
 
-    `outJSON := The optimized output geoJSONs that can be used as on web or sent to Summarization`
+    `outJSON := The optimised output geoJSONs that can be used on the web or sent to Summarisation`
