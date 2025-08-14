@@ -1,4 +1,4 @@
-morse_code='DM++/Semantic_Segmenation_NMI/morse_code'
+morse_code='DM++/Semantic_Segmentation_NMI/morse_code'
 
 import sys
 import numpy as np
