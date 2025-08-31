@@ -52,10 +52,10 @@ from multiprocessing import Pool
 # from dmp import tst
 
 eps = 0.0001
-# filePath = '/home/pratik/DM++/data_albu/'
+# filePath = '/home/sahaj/Projects/Forks/2D-Skeletonization/Skektonization_Suite/DM++/data_albu/'
 # # filePath = '/nfs/data/main/M32/Samik/180830/180830_JH_WG_Fezf2LSLflp_CFA_female_processed/TrainingDataProofread/small_train/train/images/'
 # fileList1 = os.listdir(filePath)
-# outDir = '/home/pratik/DM++/pred/'
+# outDir = '/home/sahaj/Projects/Forks/2D-Skeletonization/Skektonization_Suite/DM++/pred/'
 # # outDir = '/nfs/data/main/M32/Samik/180830/180830_JH_WG_Fezf2LSLflp_CFA_female_processed/TrainingDataProofread/small_train/train/pred/'
 # os.system("mkdir " + outDir)
 # #fileList1 ='StitchedImage_Z052_L001.tif'

@@ -235,7 +235,7 @@ eps = 0.0001
 
 # filePath = '/nfs/data/main/M25/MorseSkeleton_OSUMITRA/TrainingData/180830/test/data/'
 # filePath = '/home/samik/ProcessDet/temp/'
-filePath = '/home/pratik/DM++/data/'
+filePath = '/home/sahaj/Projects/Forks/2D-Skeletonization/Skektonization_Suite/DM++/data/'
 # filePath = '/nfs/data/main/M32/Samik/180830/180830_JH_WG_Fezf2LSLflp_CFA_female_processed/TrainingDataProofread/DM/'
 fileList1 =os.listdir(filePath)
 #print(fileList1)
@@ -243,7 +243,7 @@ for fichier in fileList1[:]: # filelist[:] makes a copy of filelist.
    if not(fichier.endswith(".tif")):
        fileList1.remove(fichier)
 #print(fileList1).
-outDir = '/home/pratik/DM++/dmOP/'
+outDir = '/home/sahaj/Projects/Forks/2D-Skeletonization/Skektonization_Suite/DM++/dmOP/'
 # outDir = '/nfs/data/main/M32/Samik/180830/180830_JH_WG_Fezf2LSLflp_CFA_female_processed/TrainingDataProofread/dmOP/'
 os.system("mkdir " +  outDir)
 

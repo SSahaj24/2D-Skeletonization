@@ -44,14 +44,14 @@ from createNetR import *
 # sess = tf.Session(config=config)
 # K.set_session(sess)
 
-model = dmnet('/home/pratik/DM++/from-samik/dmnet_membrane_MBA.hdf5')
+model = dmnet('/home/sahaj/Projects/Forks/2D-Skeletonization/Skektonization_Suite/DM++/from-samik/dmnet_membrane_MBA.hdf5')
 
 
 def sigmoid(x):
     return 1 / 1 + np.exp(-x)
 
 def testImages(img, dm):
-    # model_path='/home/pratik/DM++/from-samik/dmnet_membrane_MBA.hdf5'
+    # model_path='/home/sahaj/Projects/Forks/2D-Skeletonization/Skektonization_Suite/DM++/from-samik/dmnet_membrane_MBA.hdf5'
     # model = dmnet(model_path)
     # print("Using Model situated at: ",model_path)
     

@@ -201,7 +201,7 @@ def toimage(arr, high=255, low=0, cmin=None, cmax=None, pal=None,
 
 # def dmpp_cal(width,height,albu_out,dm_opL,mask_image):
  
-#     model = dmnet('/home/pratik/DM++/from-samik/dmnet_membrane_MBA.hdf5')
+#     model = dmnet('/home/sahaj/Projects/Forks/2D-Skeletonization/Skektonization_Suite/DM++/from-samik/dmnet_membrane_MBA.hdf5')
 
 #     os.environ["CUDA_VISIBLE_DEVICES"] = "1"
 #     # config = tf.ConfigProto()

@@ -47,7 +47,7 @@ K.set_session(sess)
 # model = dmnet()
 
 #model = dmnet('/nfs/data/main/M32/Samik/NMI_models/dmnet_membrane_STP_RT1.hdf5')
-model = dmnet('/home/pratik/DM++/from-samik/dmnet_membrane_MBA.hdf5')
+model = dmnet('/home/sahaj/Projects/Forks/2D-Skeletonization/Skektonization_Suite/DM++/from-samik/dmnet_membrane_MBA.hdf5')
 
 # X = np.load("imgTst.npy")
 # Y = np.load("dmTST.npy")
@@ -55,9 +55,9 @@ model = dmnet('/home/pratik/DM++/from-samik/dmnet_membrane_MBA.hdf5')
 
 
 #filePath1 = '/nfs/data/main/M32/Samik/data_NMI/data/STP_Process/180830/test/pred/'
-filePath1 = '/home/pratik/DM++/pred/'
+filePath1 = '/home/sahaj/Projects/Forks/2D-Skeletonization/Skektonization_Suite/DM++/pred/'
 #filePath2 = '/nfs/data/main/M32/Samik/data_NMI/data/STP_Process/180830/test/dmOP/'
-filePath2 = '/home/pratik/DM++/dmOP/'
+filePath2 = '/home/sahaj/Projects/Forks/2D-Skeletonization/Skektonization_Suite/DM++/dmOP/'
 fileList1 = os.listdir(filePath1)
 fileList2 = os.listdir(filePath2)
 # fileList3 = os.listdir('/home/samik/mnt/m25/MorseSkeleton_OSUMITRA/TrainingData/180830/')
@@ -112,7 +112,7 @@ def testImages(files1, name1, name2):
         print(img.max())
         changed_f1 = f1[:-8] + '.tif'
         # cv2.imwrite("results/" + changed_f1, np.uint8(img))
-        cv2.imwrite("/home/pratik/DM++/final_results" + changed_f1, np.uint8(img))
+        cv2.imwrite("/home/sahaj/Projects/Forks/2D-Skeletonization/Skektonization_Suite/DM++/final_results" + changed_f1, np.uint8(img))
         # misc.imsave("/nfs/data/main/M32/Samik/data_NMI/data/STP_Process/180830/test/result/" + f1, img.astype('uint8'))
         
 
