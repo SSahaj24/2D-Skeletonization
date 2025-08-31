@@ -55,9 +55,9 @@ def cmp_dm_img_tri2D(output_dir, input_filename, threshold):
     t_start = time.time()
     PERSISTENCE_THRESHOLD=threshold
 
-    # subprocess.check_call([r"DM++/Semantic_Segmenation_NMI/morse_code/src/a.out", output_dir + 'input.png', output_dir, str(PERSISTENCE_THRESHOLD)])
-    # subprocess.call(["DM++/Semantic_Segmenation_NMI/morse_code/src/a.out",output_dir + "/input.png",output_dir,str(PERSISTENCE_THRESHOLD)])
-    command='DM++/Semantic_Segmenation_NMI/morse_code/src/a.out '+ output_dir + '/input.png ' + output_dir + ' ' + str(PERSISTENCE_THRESHOLD)
+    # subprocess.check_call([r"DM++/Semantic_Segmentation_NMI/morse_code/src/a.out", output_dir + 'input.png', output_dir, str(PERSISTENCE_THRESHOLD)])
+    # subprocess.call(["DM++/Semantic_Segmentation_NMI/morse_code/src/a.out",output_dir + "/input.png",output_dir,str(PERSISTENCE_THRESHOLD)])
+    command='DM++/Semantic_Segmentation_NMI/morse_code/src/a.out '+ output_dir + '/input.png ' + output_dir + ' ' + str(PERSISTENCE_THRESHOLD)
     os.system(command)
     
     t_end = time.time()
@@ -147,9 +147,9 @@ def dm_cal(tile, id, ps, OUTDIR):
             output_file.write(str(e[0]) + ' ' + str(e[1]) + '\n')
         output_file.close()
 
-    # subprocess.check_call([r"DM++/Semantic_Segmenation_NMI/morse_code/paths_src/a.out", id_dir])
-    subprocess.run(["DM++/Semantic_Segmenation_NMI/morse_code/paths_src/a.out",id_dir])
-    # command='mpiexec -n 1 DM++/Semantic_Segmenation_NMI/morse_code/src/a.out ' + id_dir
+    # subprocess.check_call([r"DM++/Semantic_Segmentation_NMI/morse_code/paths_src/a.out", id_dir])
+    subprocess.run(["DM++/Semantic_Segmentation_NMI/morse_code/paths_src/a.out",id_dir])
+    # command='mpiexec -n 1 DM++/Semantic_Segmentation_NMI/morse_code/src/a.out ' + id_dir
     # os.system(command)
 
     perc = np.percentile(img, MAX_INT_PERC)
